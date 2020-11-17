@@ -5,6 +5,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
 <script src="./p5.play.js"></script>
+
+
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA9Mh0iviSEOjlKngQ4ukl4DfAD236Jl7U",
+    authDomain: "carrace-3c908.firebaseapp.com",
+    databaseURL: "https://carrace-3c908.firebaseio.com",
+    projectId: "carrace-3c908",
+    storageBucket: "carrace-3c908.appspot.com",
+    messagingSenderId: "704209036275",
+    appId: "1:704209036275:web:91dd2fc735ca5114e9a886"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 
